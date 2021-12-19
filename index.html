@@ -1,8 +1,181 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
 
-        <title>
-            Html-структура документа
-        </title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Ubuntu:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__contacts">
+                    <a class="header__phone" href="tel:375333167921">+375 (33) 316-79-21</a>
+                    <a class="header__email" href="#">notolyadesign@gmail.com</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Free
+                        consultation</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About me</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider">
+        <div class="container">
+            <div class="slider__inner">
+                <div class="vertical__line"></div>
+                <div class="slider__item">
+                    <div class="slider__title">
+                        Sasha
+                    </div>
+                    <div class="slider__titleb">
+                        Quiet
+                    </div>
+                    <div class="slider__text">
+                        I am a proofessional <p> photographer. I love taking </p> pictures of happy people who have
+                        their own story.
+                    </div>
+                    <nav class="slider__btn">
+                        <ul>
+                            <li><a href="#" style="color: #7e7e7a;">HIRE ME!</a></li>
+                        </ul>
+                    </nav>
+                    <div class="slider__icon">
+                        <ul>
+                            <li><a href="https://www.behance.net/olkaivanov50a0" target="_blank"><img
+                                        src="img/behance.png"></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100034024511653" target="_blank"><img
+                                        src="img/facebook.png"></a></li>
+                            <li><a href="https://instagram.com/not.olya1?utm_medium=copy_link" target="_blank"><img
+                                        src="img/insta.png"></a></li>
+                            <li><a href="https://vk.com/enotik_29" target="_blank"><img src="img/vk.png"></a></li>
+                        </ul>
+                    </div>
+                    <div class="vertical__line2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__jpg">
+                <img src="img/person.png" alt="">
+            </div>
+            <div class="about__title-box">
+                <div class="about__title">
+                    About me
+                </div>
+                <div class="about__text">
+                    Glad to meet you! <p>
+                    <p> I hope that in the near future we will become friends,
+                        and you will entrust me with the most valuable thing that you have - these
+                        are memories. Wedding, birth of a child, maybe an original photo for your
+                        instagram? Or a photo shoot you never came up with an idea for? </p>
+                    </p> It's
+                    time to write to me and tell me about your ideas.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfol">
+        <div class="container">
+            <div class="portfol__content">
+                <div class="portfol__title-box">
+                    <div class="portfol__title">
+                        Portfolio
+                    </div>
+                </div>
+                <div class="portfol__menu">
+                    <div class="pmenu">
+                        <nav class="pmenu__items">
+                            <a href="#01" class="pmenu__item">All</a>
+                            <a href="#02" class="pmenu__item">Wedding</a>
+                            <a href="#03" class="pmenu__item">Love story</a>
+                            <a href="#04" class="pmenu__item">Portrait</a>
+                        </nav>
+                        <div class="pmenu__body">
+                            <div id="01" class="pmenu__block">
+                                <img src="img/all.png" alt="">
+                            </div>
+                            <div id="02" class="pmenu__block">
+                                <img src="img/wedding.png" alt="">
+                            </div>
+                            <div id="03" class="pmenu__block">
+                                <img src="img/love.png" alt="">
+                            </div>
+                            <div id="04" class="pmenu__block">
+                                <img src="img/port.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfol__jpg">
+                <img src="#" alt="">
+                <img src="#" alt="">
+                <img src="#" alt="">
+                <img src="#" alt="">
+                <img src="#" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a href="#">
+                        <img src="img/logo2.png" alt="">
+                    </a>
+                </div>
+                <div class="footer__text">
+                    ©2021 - Form | Olga Ivanova
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal">
+        <h2>Hello!</h2>
+        <p>We will call you back!</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
